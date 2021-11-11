@@ -8,7 +8,7 @@ public class Data {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		String url = "jdbc:mysql://localhost:3306/studentdata";
 		String username = "root";
-		String password = "akash123";
+		String password = "root";
 
 		Connection con = DriverManager.getConnection(url, username, password);
 		Statement st=con.createStatement();
